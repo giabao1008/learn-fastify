@@ -1,0 +1,30 @@
+{
+  "name": "fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js",
+    "lint": "eslint '**/**.js' --fix --ignore-pattern",
+    "format": "prettier --write '**/*.js'"
+  },
+  "author": "tuyenbq",
+  "license": "ISC",
+  "dependencies": {
+    "db-migrate": "^0.11.13",
+    "db-migrate-pg": "^1.2.2",
+    "fastify": "^4.9.2",
+    "fastify-plugin": "^4.3.0",
+    "pg-promise": "^10.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.7.1"
+  },
+  "type": "module"
+}
