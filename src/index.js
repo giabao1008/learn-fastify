@@ -1,5 +1,5 @@
 import fastify from "fastify";
-import database from "../plugin/database.js";
+import database from "../plugin/database";
 
 const build = (otps = {}) => {
     const app = fastify(otps);

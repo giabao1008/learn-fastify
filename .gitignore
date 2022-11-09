@@ -58,3 +58,5 @@ uploads/*
 
 # Next auto generated file
 apps/w2-app/next-env.d.ts
+.batect
+debugging-log.json

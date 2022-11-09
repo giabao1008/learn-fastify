@@ -1,6 +1,6 @@
 import fastifyPlugin from 'fastify-plugin';
 import pgPromise from 'pg-promise';
-import applyMigration from './helper/migration.js'
+import applyMigration from './helper/migration'
 
 
 const database = async (fastify, options, next) => {
